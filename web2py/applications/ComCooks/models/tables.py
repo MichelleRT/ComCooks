@@ -61,10 +61,7 @@ db.define_table('my_images',
 # Create db tables for the tips page
 #-------------------------------------------------------------
 
-db.define_table('tip',
-    Field('tip_author', default=get_user_email()),
 
-)
 
 #-------------------------------------------------------------
 # Create db tables for the discussion page

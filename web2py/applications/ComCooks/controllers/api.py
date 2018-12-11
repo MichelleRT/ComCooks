@@ -198,4 +198,3 @@ def get_post():
     # print "This is the post: ", post
     # print "The get_post api got to the end right before the return"
     return response.json(dict(post = post))   
-

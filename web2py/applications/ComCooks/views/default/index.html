@@ -111,7 +111,7 @@
       </div>
 
       <!-- Message in case there are no posts. -->
-      <div v-if="post_list.length === 0">There are no posts.</div>
+      <div align="center" style="margin-top:5%" v-if="post_list.length === 0">There are no recipes.</div>
 
       <!-- We display the posts. -->
       <div id="post_list">
@@ -128,7 +128,7 @@
             <!-- Once the title is clicked, we need to generate the url and show post page -->
 
          
-            <div class="post_title" align="center" v-on:click="click_title_to_page(post.id);get_post(post.id);"> 
+            <div class="post_title" align="center" style="margin-bottom:2%" v-on:click="click_title_to_page(post.id);get_post(post.id);"> 
               <a style="color:black"><h3>${post.post_title}</h3></a>
             </div>
            
@@ -176,11 +176,15 @@
         </div>
 
 
-        <div v-if="editing_post"> 
+        <div v-if="editing_post" style="margin-left:20%; margin-right:20%"> 
           <!-- Add the text area for editing the post. -->
           
-            <textarea v-model="post_page_data.post_title" placeholder="Write a title here"></textarea>
-            <textarea v-model="post_page_data.post_content" placeholder="Write text here"></textarea>
+            <p style="margin-top:5%">Edit Title:</p>
+            
+            <textarea style="margin-bottom:4%;margin-top:2%" v-model="post_page_data.post_title" placeholder="Write a title here"></textarea>
+
+            <p>Edit Recipe:</p>
+            <textarea style="margin-bottom:2%;margin-top:2%" v-model="post_page_data.post_content" placeholder="Write text here"></textarea>
 
             <button class="fa fa-pencil-square-o" v-on:click="done_button_clicked(post_page_data.id);editing_post=false;"> Save Edit</button>
             <button class="fa fa-pencil-square-o" v-on:click="editing_post=false">Cancel Edit</button>

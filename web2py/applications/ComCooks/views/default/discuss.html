@@ -1,7 +1,146 @@
 {{extend 'layout.html'}}
 
-<div>
-    <h1>
-        Discussion
-    </h1>
+{{block head}}
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var add_dis_url = "{{=URL('api', 'add_dis', user_signature=True)}}";
+    var get_dis_list_url = "{{=URL('api', 'get_dis_list')}}";
+    // Like callbacks.
+    var set_like_url = "{{=URL('api', 'set_like', user_signature=True)}}";
+    var get_likers_url = "{{=URL('api', 'get_likers')}}"
+    // Stars.
+    var set_stars_url = "{{=URL('api', 'set_stars', user_signature=True)}}";
+    var is_logged_in = {{='false' if auth.user is None else 'true'}};
+    // Thumbs
+    var set_thumb_url = "{{=URL('api', 'set_thumbs', user_signature=True)}}";
+    var get_thumb_url = "{{=URL('api', 'get_thumbs_count')}}";
+    // Edits
+    var get_dis_author_url = "{{=URL('api', 'get_dis_author')}}";
+    var edit_dis_url = "{{=URL('api', 'edit_dis_content')}}'";
+    // Replies
+    var add_reply_url = "{{=URL('api', 'add_reply')}}";
+    var get_dis_replies_url = "{{=URL('api', 'get_dis_replies')}}";
+    var get_reply_author_url = "{{=URL('api', 'get_reply_author')}}";
+    var edit_reply_url = "{{=URL('api', 'edit_reply')}}";
+</script>
+{{end}}
+
+<div class="main_content">
+
+    <div id="vue-div" class="display:none">
+      <!-- Your code goes here.  Remember to call $("#vue-div").show() once you get the data for the first time. -->
+
+      <!-- First, let's add a form to insert blog diss. -->
+      <div class="show_form">
+        <button v-if="isHidden" id="show-form" v-on:click="isHidden = false">+</button>
+        <button v-if="!isHidden" id="hide-form" v-on:click="isHidden = true; cancel_dis_button_clicked();">Cancel</button>
+      </div>
+      <div id="add_dis" style="display:none">
+        <div v-if="!isHidden" class="container form_row">
+          <div class="label quarter">
+            Title:
+          </div>
+          <div v-if="!isHidden" class="form threequarters">
+            <input v-model="form_title" placeholder="Enter the dis title"/>
+          </div>
+        </div>
+        <div v-if="!isHidden" class="container form_row">
+          <div class="label quarter">
+            Content:
+          </div>
+          <div v-if="!isHidden" class="form threequarters">
+            <textarea v-model="form_content" placeholder="Enter the content of your dis"></textarea>
+          </div>
+        </div>
+        <div v-if="!isHidden" class="container form_row"><div class="quarter"></div>
+          <div class="threequarters">
+            <div class="submit">
+              <button id="add-dis" v-on:click="add_dis">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Message in case there are no diss. -->
+      <div v-if="dis_list.length === 0">There are no diss.</div>
+
+      <!-- We display the diss. -->
+      <div id="dis_list">
+        <div class="dis_div" v-for="dis in dis_list">
+          <div class="dis_title">${dis.dis_title}</div>
+          <div v-if="!dis._editing" class="dis_content">${dis.dis_content}</div>
+          <div v-if="dis._editing"><textarea v-model="dis.dis_content"></textarea></div>
+          <div class="attributes">
+            
+            <!-- Code for Thumbs. -->
+
+            <div v-if="is_logged_in" class="thumbs">
+              <div class="thumb_count">${dis._thumb_count}
+                <span v-on:click="thumb_click(dis._idx, 'u')">
+                    <span v-on:mouseover="thumb_up_hover(dis._idx)"
+                          v-on:mouseout="thumb_out(dis._idx)">
+                        <i v-if="dis._thumb == 'u'" class="fa fa-thumbs-up" v-bind:style="{color: dis._thumb_object_color}" style="cursor: pointer"></i>
+                        <i v-else class="fa fa-thumbs-o-up" style="cursor: pointer"></i>
+                  </span>
+                </span>
+
+                <span v-on:click="thumb_click(dis._idx, 'd')">
+                    <span v-on:mouseover="thumb_down_hover(dis._idx)"
+                          v-on:mouseout="thumb_out(dis._idx)">
+                        <i v-if="dis._thumb == 'd'" class="fa fa-thumbs-down" v-bind:style="{color: dis._thumb_object_color}" style="cursor: pointer"></i> 
+                        <i v-else class="fa fa-thumbs-o-down" style="cursor: pointer"></i>
+                  </span>
+                </span>
+                </div>
+              </div>
+
+              <!-- Editing -->
+
+               <div v-if="is_logged_in" class="edit">
+                  <div v-if="dis._edit_button == true" class="edit_button">
+                    <button id="edit_button" v-on:click="edit_button_clicked(dis._idx)"> 
+                      <i class="fa fa-pencil-square-o"></i>
+                    </button>
+                    <button v-if="dis._editing"id="done_button" v-on:click="done_button_clicked(dis._idx)">Done</button>
+                  </div>
+              </div>
+
+              <!-- Replies -->
+
+              <div v-if="is_logged_in" class="replies">
+                <button v-if="!dis._showing_replies" id="show_replies_button" v-on:click="show_replies_button_clicked(dis._idx)">Show replies</button>
+                <button v-if="dis._showing_replies" id="hide_replies_button" v-on:click="hide_replies_button_clicked(dis._idx)">Hide replies</button>
+                <div class="replies_list">
+                  <button v-if="dis._showing_replies && !dis._adding_reply" id="add_reply_button" v-on:click="add_reply_button_clicked(dis._idx)">Add reply</button>
+                  <button v-if="dis._adding_reply" id="submit_reply_button" v-on:click="submit_reply_button_clicked(dis._idx)">Submit</button>
+                  <div v-if="dis._adding_reply"><input v-model="reply_content" placeholder="..."></input></div>
+                </div>
+
+                <div v-if="dis._showing_replies "id="reply_list">
+                  <div class="reply_div" v-for="reply in dis._reply_list">
+                    <div class="reply_author">${reply.reply_author}</div>
+                    <div v-if="!reply._editing" class="reply_content">${reply.reply_content}</div>
+                    <div v-if="reply._editing"><textarea v-model="reply.reply_content"></textarea></div>
+                    <div class="edit_reply">
+                      <button v-if="reply._edit_button == true" id="edit_reply_button" v-on:click="edit_reply_button_clicked(reply)">
+                        <i class="fa fa-pencil-square-o"></i>
+                      </button>
+                      <button v-if="reply._editing" id="submit_reply_button" v-on:click="submit_reply_after_editing_button_clicked(reply)">Submit</button>
+                    </div>
+                    <div class="reply_line"></div>
+                  </div>
+                </div>
+
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
 </div>
+
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>
