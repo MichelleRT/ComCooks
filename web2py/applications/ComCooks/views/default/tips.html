@@ -1,0 +1,37 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+
+
+<script>
+    var add_post_url = "{{=URL('api', 'add_post', user_signature=True)}}";
+    var get_post_list_url = "{{=URL('api', 'get_post_list')}}";
+    var get_post_url = "{{=URL('api', 'get_post')}}"; 
+    // Like callbacks.
+    var set_like_url = "{{=URL('api', 'set_like', user_signature=True)}}";
+    var get_likers_url = "{{=URL('api', 'get_likers')}}"
+    // Stars.
+    var set_stars_url = "{{=URL('api', 'set_stars', user_signature=True)}}";
+    var is_logged_in = {{='false' if auth.user is None else 'true'}};
+    // Thumbs
+    var set_thumb_url = "{{=URL('api', 'set_thumbs', user_signature=True)}}";
+    var get_thumb_url = "{{=URL('api', 'get_thumbs_count')}}";
+    // Edits
+    var get_post_author_url = "{{=URL('api', 'get_post_author')}}";
+    var edit_post_url = "{{=URL('api', 'edit_post_content', user_signature=True)}}";
+    // Replies
+    var add_reply_url = "{{=URL('api', 'add_reply')}}";
+    var get_post_replies_url = "{{=URL('api', 'get_post_replies')}}";
+    var get_reply_author_url = "{{=URL('api', 'get_reply_author')}}";
+    var edit_reply_url = "{{=URL('api', 'edit_reply')}}";
+
+    // Images 
+    var image_post_url = "{{=URL('api', 'post_image')}}";
+    var image_get_url = "{{=URL('api', 'get_image')}}";
+    
+</script>
+{{end}}
+ 
+ <h2>ComCooks Tips</h2>

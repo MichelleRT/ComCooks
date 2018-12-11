@@ -1,0 +1,51 @@
+/* line 1, ../sass/_main.scss */
+.colorful {
+  color: #bb8833;
+}
+
+/* line 5, ../sass/_main.scss */
+div.main_content {
+  padding: 16px;
+}
+/* line 8, ../sass/_main.scss */
+div.main_content div.form_row {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+/* line 13, ../sass/_main.scss */
+div.main_content div.post_div {
+  margin: 4px;
+  border: 1px black solid;
+  background-color: #eeeeee;
+  padding: 4px;
+}
+/* line 18, ../sass/_main.scss */
+div.main_content div.post_div .post_title {
+  font-size: 120%;
+}
+/* line 22, ../sass/_main.scss */
+div.main_content i.changed {
+  color: #777777;
+}
+/* line 25, ../sass/_main.scss */
+div.main_content span.likers_list {
+  color: #7777cc;
+}
+
+div.main_content div.reply_div {
+  margin-left: 35px;
+}
+
+div.main_content div.reply_author {
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+div.main_content div.reply_content {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+div.main_content div.reply_line {
+  border-bottom: 1px solid black;
+}

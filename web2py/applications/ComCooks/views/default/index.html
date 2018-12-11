@@ -1,0 +1,235 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script src="{{=URL('static', 'js/vue-router.js')}}"></script>
+
+
+<script>
+    var add_post_url = "{{=URL('api', 'add_post', user_signature=True)}}";
+    var get_post_list_url = "{{=URL('api', 'get_post_list')}}";
+    var get_post_url = "{{=URL('api', 'get_post')}}"; 
+    // Like callbacks.
+    var set_like_url = "{{=URL('api', 'set_like', user_signature=True)}}";
+    var get_likers_url = "{{=URL('api', 'get_likers')}}"
+    // Stars.
+    var set_stars_url = "{{=URL('api', 'set_stars', user_signature=True)}}";
+    var is_logged_in = {{='false' if auth.user is None else 'true'}};
+    // Thumbs
+    var set_thumb_url = "{{=URL('api', 'set_thumbs', user_signature=True)}}";
+    var get_thumb_url = "{{=URL('api', 'get_thumbs_count')}}";
+    // Edits
+    var get_post_author_url = "{{=URL('api', 'get_post_author')}}";
+    var edit_post_url = "{{=URL('api', 'edit_post_content', user_signature=True)}}";
+    // Replies
+    var add_reply_url = "{{=URL('api', 'add_reply')}}";
+    var get_post_replies_url = "{{=URL('api', 'get_post_replies')}}";
+    var get_reply_author_url = "{{=URL('api', 'get_reply_author')}}";
+    var edit_reply_url = "{{=URL('api', 'edit_reply')}}";
+
+    // Images 
+    var image_post_url = "{{=URL('api', 'post_image', user_signature=True)}}";
+    var image_get_url = "{{=URL('api', 'get_image')}}";
+    
+</script>
+{{end}}
+
+
+<div class="main_content">
+  
+
+    <div id="vue-div" class="display:none">
+      <!-- Your code goes here.  Remember to call $("#vue-div").show() once you get the data for the first time. -->
+      
+      <!-- Test for showing the dynamically created page -->
+
+     
+      <!-- <div v-if="show_post_page"> -->
+      <!--  Here is my test environment: -->
+      <!--  ${key} ${show_post_page} -->
+      <!-- </div> --> 
+     
+
+      <div v-if="!show_post_page">
+        <h1 align="center" style="margin-top:0%">ComCooks</h1>
+        <h4 align="center" style="margin-top:0%;margin-bottom:2%;color:gray">Where cooks can collaborate as a community.</h4>
+
+        <!-- Create a search bar here -->
+        <div class="fa fa-search" style="margin-left:38%;margin-bottom:-2%"></div>
+        <div class="form quarter" style="margin-left:40%;margin-bottom:2%"> 
+          
+          <input class="fa fa-search" id="myInput" type="text" v-on:keyup="myFunction()" placeholder="Search for recipes with keywords">
+          
+        </div>
+
+
+        <div> 
+          <button align="center" style="margin-left:42%" v-on:click="alphaOrder();">Alphabetical Order</button>
+          <a href><button align="center">Refresh Newest</button></a>
+        </div>
+      </div>
+
+
+      
+      <!-- First, let's add a form to insert recipe posts. -->
+      <div class="show_form" v-if="is_logged_in">
+        <div v-if="!show_post_page">
+          <button style="margin-left:20%" v-if="isHidden" id="show-form" v-on:click="isHidden = false">+ Add a recipe</button>
+        </div>
+      </div>
+      <div id="add_post" style="display:none;margin-left:20%">
+        <div v-if="!isHidden" class="container form_row">
+          <div style="margin-left:10%;margin-top:2%">
+            Title:
+          </div>
+          <div v-if="!isHidden" class="form half" style="margin-left:15%">
+            <input v-model="form_title" placeholder="Enter the post title"/>
+          </div>
+        </div>
+        <div v-if="!isHidden" class="container form_row">
+          <div style="margin-left:10%">
+            Content:
+          </div>
+          <div v-if="!isHidden" class="form half" style="margin-left:15%">
+            <textarea v-model="form_content" placeholder="Enter the content of your post"></textarea>
+          </div>
+        </div>
+        <div v-if="!isHidden" >
+          <div style="margin-left:10%;margin-top:2%;margin-bottom:2%" class="form quarter">
+            <input id="file_input" type="file" v-on:change="form_image=$event.target.files[0];" accept="image/jpeg">
+          </div>
+        </div>
+        <div v-if="!isHidden" class="container form_row">
+          <div class="threequarters">
+            <div class="submit" style="margin-left:15%">
+              <button id="add-post" v-on:click="add_post">Submit</button>
+              <button v-if="!isHidden" id="hide-form" v-on:click="isHidden = true; cancel_post_button_clicked();">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Message in case there are no posts. -->
+      <div v-if="post_list.length === 0">There are no posts.</div>
+
+      <!-- We display the posts. -->
+      <div id="post_list">
+      
+        
+        <div v-for="post in post_list">
+
+          <!-- On the post list home page, we want to only show the title and photo of each post/recipe --> 
+
+          <div class="post_div" v-if="!show_post_page" style="margin-right:20%;margin-left:20%;margin-top:1%;margin-bottom:1%;padding-bottom:30px">
+
+          
+
+            <!-- Once the title is clicked, we need to generate the url and show post page -->
+
+         
+            <div class="post_title" align="center" v-on:click="click_title_to_page(post.id);get_post(post.id);"> 
+              <a style="color:black"><h3>${post.post_title}</h3></a>
+            </div>
+           
+
+
+            <div style="margin-left: auto; margin-right: auto;" align="center">
+              <img v-bind:src="post.my_images" style="width: 500px"/>
+            </div>
+
+            
+            
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- On the show post page, we want to show everything on the post, with buttons -->
+      <!-- Show only the post for which the title was clicked on -->
+      <!-- Check post id to determine which post to show --> 
+
+
+
+      <!-- Might not be correct to place the show_post_page below --> 
+
+      <div v-if="show_post_page"> 
+   
+        
+
+      <div v-if="!editing_post" style="margin-bottom:1%" class="post_title" align="center"><h2>${post_page_data.post_title}</h2>  </div>
+
+      <div style="margin-left: auto; margin-right: auto;width: 550px" align="center" class="card lifted padded half">
+        <img v-bind:src="received_image" style="width: 500px"/>
+      </div>
+ 
+
+      <div v-if="!editing_post" class="post_content" style="margin-top:3%;margin-left:20%;margin-right:20%">${post_page_data.post_content}</div>
+
+      <!-- Editing -->
+
+      <div v-if="is_logged_in" class="edit">
+      
+        <div v-if="!editing_post">
+          <button v-on:click="editing_post=true" style="margin-left:20%;margin-top:2%" class="fa fa-pencil-square-o"> Edit </button>   
+        </div>
+
+
+        <div v-if="editing_post"> 
+          <!-- Add the text area for editing the post. -->
+          
+            <textarea v-model="post_page_data.post_title" placeholder="Write a title here"></textarea>
+            <textarea v-model="post_page_data.post_content" placeholder="Write text here"></textarea>
+
+            <button class="fa fa-pencil-square-o" v-on:click="done_button_clicked(post_page_data.id);editing_post=false;"> Save Edit</button>
+            <button class="fa fa-pencil-square-o" v-on:click="editing_post=false">Cancel Edit</button>
+   
+        </div>
+   
+
+      </div>
+                           
+
+      <div class="attributes">
+            
+        <!-- Code for 5* ratings -->
+
+      </div> 
+
+      <!-- Code for photos -->
+      <div v-if="is_logged_in">
+      <div v-if="isHiden">
+        <button class="fa fa-pencil-square-o" style="margin-left:20%;margin-top:1%" v-on:click="isHiden = false"> Upload photo</button>
+      </div>
+      </div>
+
+      <div v-if="!isHiden" class="container padded">
+
+
+        <div style="margin-left:10%;margin-top:2%;margin-bottom:2%" class="form quarter">
+          <input id="file_input" type="file" v-on:change="form_image=$event.target.files[0];" accept="image/jpeg">
+        </div>
+
+        <div class="threequarters">
+          <div class="submit" style="margin-left:15%">
+            <a href><button v-on:click="add_image(post_page_data.id);isHiden = true">Submit</button></a>
+            <button v-on:click="isHiden = true; cancel_post_button_clicked();">Cancel</button>
+          </div>
+        </div>
+  
+                                      
+      </div>
+
+      
+
+
+      </div>
+    
+    
+
+    </div>
+
+</div>
+
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>

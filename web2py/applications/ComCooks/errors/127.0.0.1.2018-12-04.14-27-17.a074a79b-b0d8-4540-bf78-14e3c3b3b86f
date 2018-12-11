@@ -1,0 +1,444 @@
+(dp1
+S'output'
+p2
+S''
+sS'layer'
+p3
+S'Framework'
+p4
+sS'code'
+p5
+S''
+sS'snapshot'
+p6
+(dp7
+S'exception'
+p8
+(dp9
+S'__module__'
+p10
+S"'sqlite3'"
+p11
+sS'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of OperationalError object>"
+p13
+sS'__str__'
+p14
+S"<method-wrapper '__str__' of OperationalError object>"
+p15
+sS'__reduce__'
+p16
+S'<built-in method __reduce__ of OperationalError object>'
+p17
+sS'__dict__'
+p18
+S'{}'
+p19
+sS'__sizeof__'
+p20
+S'<built-in method __sizeof__ of OperationalError object>'
+p21
+sS'__weakref__'
+p22
+S'None'
+p23
+sS'message'
+p24
+S"'database is locked'"
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of OperationalError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of OperationalError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of OperationalError object>'
+p31
+sS'__new__'
+p32
+S'<built-in method __new__ of type object>'
+p33
+sS'__format__'
+p34
+S'<built-in method __format__ of OperationalError object>'
+p35
+sS'__class__'
+p36
+S"<class 'sqlite3.OperationalError'>"
+p37
+sS'__doc__'
+p38
+S'None'
+p39
+sS'__getitem__'
+p40
+S"<method-wrapper '__getitem__' of OperationalError object>"
+p41
+sS'__setstate__'
+p42
+S'<built-in method __setstate__ of OperationalError object>'
+p43
+sS'__getattribute__'
+p44
+S"<method-wrapper '__getattribute__' of OperationalError object>"
+p45
+sS'args'
+p46
+S"('database is locked',)"
+p47
+sS'__subclasshook__'
+p48
+S'<built-in method __subclasshook__ of type object>'
+p49
+sS'__unicode__'
+p50
+S'<built-in method __unicode__ of OperationalError object>'
+p51
+sS'__delattr__'
+p52
+S"<method-wrapper '__delattr__' of OperationalError object>"
+p53
+sS'__repr__'
+p54
+S"<method-wrapper '__repr__' of OperationalError object>"
+p55
+sS'__hash__'
+p56
+S"<method-wrapper '__hash__' of OperationalError object>"
+p57
+ssS'evalue'
+p58
+S'database is locked'
+p59
+sS'request'
+p60
+cgluon.html
+XML_unpickle
+p61
+(S's\x07n\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>ComCooks</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-94c915ff-3b25-4cb5-b4cf-4dd6b3617697<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_comcooks</td><td style="vertical-align:top;">:</td><td><div>6:68a3122b-d559-4e8d-b02a-4a39ab878a4d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_hw4</td><td style="vertical-align:top;">:</td><td><div>46:b9f1b0ee-68cb-44f5-a491-08f78731b236<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-c6b7f0c4-e4e1-496b-94d1-c21db584e4f8<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>687</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div>687</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=127.0.0.1-94c915ff-3b25-4cb5-b4cf-4dd6b3617697; session_id_welcome=127.0.0.1-c6b7f0c4-e4e1-496b-94d1-c21db584e4f8; session_id_hw4=&quot;46:b9f1b0ee-68cb-44f5-a491-08f78731b236&quot;; session_id_comcooks=&quot;6:68a3122b-d559-4e8d-b02a-4a39ab878a4d&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ORIGIN</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>36192</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>michy-Lenovo-S41-70</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/hw4/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/welcome/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/admin/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/ComCooks/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7fa49e530a70: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;michy-Lenovo-S41-70&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: True, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div>687</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;ComCooks&#x27;, &#x27;hw4&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_length</td><td style="vertical-align:top;">:</td><td><div>687</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_content_type</td><td style="vertical-align:top;">:</td><td><div>multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_admin=127.0.0.1-94c915ff-3b25-4cb5-b4cf-4dd6b3617697; session_id_welcome=127.0.0.1-c6b7f0c4-e4e1-496b-94d1-c21db584e4f8; session_id_hw4=&quot;46:b9f1b0ee-68cb-44f5-a491-08f78731b236&quot;; session_id_comcooks=&quot;6:68a3122b-d559-4e8d-b02a-4a39ab878a4d&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_origin</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>michy-Lenovo-S41-70</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>36192</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>michy-Lenovo-S41-70</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.17.2-stable+timestamp.2018.10.06.18.54.02</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fa4a499b1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7fa49e55a9a8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7fa474115ed0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x7fa4a499b1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x7fa49e55a9a8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x7fa474115ed0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py/applications/ComCooks/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/hw4/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/welcome/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/admin/&#x27;, &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py/applications/ComCooks/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x7fa49e530a70: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;michy-Lenovo-S41-70&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: True, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/home/michy/CS183/ComCooks/ComCooks/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;ComCooks&#x27;, &#x27;hw4&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/michy/CS183/ComCooks/ComCooks/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>127.0.1.1</div></td></tr><tr><td><div>michy-Lenovo-S41-70</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.17.2-stable+timestamp.2018.10.06.18.54.02</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">method</td><td style="vertical-align:top;">:</td><td><div>POST</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 12, 4, 14, 27, 17, 209897)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/ComCooks/default/create</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 12, 4, 22, 27, 17, 209915)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7fa47483a210&gt;</div></td></tr></table></div>'
+tRp62
+sS'frames'
+p63
+(lp64
+(dp65
+S'file'
+p66
+S'/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/main.py'
+p67
+sS'dump'
+p68
+(dp69
+S'session'
+p70
+S"<Storage {'last_query': 'db.page.id>0', '_auth_n...gin]': ['b1c93899-ee61-4852-a496-6fa7972bc8ba']}>"
+p71
+sS'request'
+p72
+S"<Storage {'function': 'create', 'cookies': <Simp...False, 'is_https': False, 'client': '127.0.0.1'}>"
+p73
+sS'session._try_store_in_db'
+p74
+S"<bound method Session._try_store_in_db of <Stora...in]': ['b1c93899-ee61-4852-a496-6fa7972bc8ba']}>>"
+p75
+sS'response'
+p76
+S"<Storage {'body': <cStringIO.StringO object at 0..., session_data)>, 'view': 'default/create.html'}>"
+p77
+ssS'lnum'
+p78
+I461
+sS'lines'
+p79
+(dp80
+I456
+S''
+sI457
+S'                    # ##################################################'
+p81
+sI458
+S'                    # on success, try store session in database'
+p82
+sI459
+S'                    # ##################################################'
+p83
+sI460
+S'                    if not env.web2py_disable_session:'
+p84
+sI461
+S'                        session._try_store_in_db(request, response)'
+p85
+sI462
+S''
+sI463
+S'                    # ##################################################'
+p86
+sI464
+S'                    # on success, commit database'
+p87
+sI465
+S'                    # ##################################################'
+p88
+ssS'call'
+p89
+S'(environ={\'CONTENT_LENGTH\': \'687\', \'CONTENT_TYPE\': \'multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z\', \'HTTP_ACCEPT\': \'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\', \'HTTP_ACCEPT_ENCODING\': \'gzip, deflate, br\', \'HTTP_ACCEPT_LANGUAGE\': \'en-US,en;q=0.9\', \'HTTP_CACHE_CONTROL\': \'max-age=0\', \'HTTP_CONNECTION\': \'keep-alive\', \'HTTP_CONTENT_LENGTH\': \'687\', \'HTTP_CONTENT_TYPE\': \'multipart/form-data; boundary=----WebKitFormBoundaryFBwSAvR74l8izf3Z\', \'HTTP_COOKIE\': \'session_id_admin=127.0.0.1-94c915ff-3b25-4cb5-b4...comcooks="6:68a3122b-d559-4e8d-b02a-4a39ab878a4d"\', ...}, responder=<function responder2>)'
+p90
+sS'func'
+p91
+S'wsgibase'
+p92
+sa(dp93
+g66
+S'/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/globals.py'
+p94
+sg68
+(dp95
+S'dd'
+p96
+S"{'client_ip': '127.0.0.1', 'locked': False, 'modified_datetime': datetime.datetime(2018, 12, 4, 14, 27, 17, 209897), 'session_data': '\\x80\\x02cgluon.globals\\nSession\\nq\\x01}q\\x02(U\\nlast_queryq\\x03U\\x0cd...qGU$b1c93899-ee61-4852-a496-6fa7972bc8baqHau\\x85RqI.', 'unique_key': '68a3122b-d559-4e8d-b02a-4a39ab878a4d'}"
+p97
+sS'table._db'
+p98
+S'<DAL uri="sqlite://storage.sqlite">'
+p99
+sS').update'
+p100
+S'undefined'
+p101
+sS'table.id'
+p102
+S'<pydal.objects.Field object>'
+p103
+sS'record_id'
+p104
+S'6L'
+p105
+sS'table'
+p106
+S'<Table web2py_session_ComCooks (id, locked, clie...me, modified_datetime, unique_key, session_data)>'
+p107
+ssg78
+I1236
+sg79
+(dp108
+I1231
+S'                  client_ip=response.session_client,'
+p109
+sI1232
+S'                  modified_datetime=request.now,'
+p110
+sI1233
+S'                  session_data=session_pickled,'
+p111
+sI1234
+S'                  unique_key=unique_key)'
+p112
+sI1235
+S'        if record_id:'
+p113
+sI1236
+S'            if not table._db(table.id == record_id).update(**dd):'
+p114
+sI1237
+S'                record_id = None'
+p115
+sI1238
+S'        if not record_id:'
+p116
+sI1239
+S'            record_id = table.insert(**dd)'
+p117
+sI1240
+S"            response.session_id = '%s:%s' % (record_id, unique_key)"
+p118
+ssg89
+S"(self=<Storage {'last_query': 'db.page.id>0', '_auth_n...gin]': ['b1c93899-ee61-4852-a496-6fa7972bc8ba']}>, request=<Storage {'function': 'create', 'cookies': <Simp...False, 'is_https': False, 'client': '127.0.0.1'}>, response=<Storage {'body': <cStringIO.StringO object at 0..., session_data)>, 'view': 'default/create.html'}>)"
+p119
+sg91
+S'_try_store_in_db'
+p120
+sa(dp121
+g66
+S'/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/packages/dal/pydal/objects.py'
+p122
+sg68
+(dp123
+S'self.query'
+p124
+S'<Query ("web2py_session_ComCooks"."id" = 6)>'
+p125
+sS'db._adapter'
+p126
+S'<pydal.adapters.sqlite.SQLite object>'
+p127
+sS'self'
+p128
+S'<Set ("web2py_session_ComCooks"."id" = 6)>'
+p129
+sS'db'
+p130
+S'<DAL uri="sqlite://storage.sqlite">'
+p131
+sS'ret'
+p132
+g101
+sS'row.op_values'
+p133
+S"<bound method OpRow.op_values of <OpRow {'client...e_key': '68a3122b-d559-4e8d-b02a-4a39ab878a4d'}>>"
+p134
+sS'table'
+p135
+S'<Table web2py_session_ComCooks (id, locked, clie...me, modified_datetime, unique_key, session_data)>'
+p136
+sS'db._adapter.update'
+p137
+S'<bound method SQLite.update of <pydal.adapters.sqlite.SQLite object>>'
+p138
+sS'row'
+p139
+S"<OpRow {'client_ip': '127.0.0.1', 'session_data'...ue_key': '68a3122b-d559-4e8d-b02a-4a39ab878a4d'}>"
+p140
+ssg78
+I2314
+sg79
+(dp141
+I2309
+S'        row = table._fields_and_values_for_update(update_fields)'
+p142
+sI2310
+S'        if not row._values:'
+p143
+sI2311
+S'            raise ValueError("No fields to update")'
+p144
+sI2312
+S'        if any(f(self, row) for f in table._before_update):'
+p145
+sI2313
+S'            return 0'
+p146
+sI2314
+S'        ret = db._adapter.update(table, self.query, row.op_values())'
+p147
+sI2315
+S'        ret and [f(self, row) for f in table._after_update]'
+p148
+sI2316
+S'        return ret'
+p149
+sI2317
+S''
+sI2318
+S'    def update_naive(self, **update_fields):'
+p150
+ssg89
+S'(self=<Set ("web2py_session_ComCooks"."id" = 6)>, **update_fields={\'client_ip\': \'127.0.0.1\', \'locked\': False, \'modified_datetime\': datetime.datetime(2018, 12, 4, 14, 27, 17, 209897), \'session_data\': \'\\x80\\x02cgluon.globals\\nSession\\nq\\x01}q\\x02(U\\nlast_queryq\\x03U\\x0cd...qGU$b1c93899-ee61-4852-a496-6fa7972bc8baqHau\\x85RqI.\', \'unique_key\': \'68a3122b-d559-4e8d-b02a-4a39ab878a4d\'})'
+p151
+sg91
+S'update'
+p152
+sa(dp153
+g66
+S'/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p154
+sg68
+(dp155
+S'e'
+S"OperationalError('database is locked',)"
+p156
+ssg78
+I524
+sg79
+(dp157
+I519
+S'            self.execute(sql)'
+p158
+sI520
+S'        except:'
+p159
+sI521
+S'            e = sys.exc_info()[1]'
+p160
+sI522
+S"            if hasattr(table, '_on_update_error'):"
+p161
+sI523
+S'                return table._on_update_error(table, query, fields, e)'
+p162
+sI524
+S'            raise e'
+p163
+sI525
+S'        try:'
+p164
+sI526
+S'            return self.cursor.rowcount'
+p165
+sI527
+S'        except:'
+p166
+sI528
+S'            return None'
+p167
+ssg89
+S'(self=<pydal.adapters.sqlite.SQLite object>, table=<Table web2py_session_ComCooks (id, locked, clie...me, modified_datetime, unique_key, session_data)>, query=<Query ("web2py_session_ComCooks"."id" = 6)>, fields=[(<pydal.objects.Field object>, \'127.0.0.1\'), (<pydal.objects.Field object>, \'\\x80\\x02cgluon.globals\\nSession\\nq\\x01}q\\x02(U\\nlast_queryq\\x03U\\x0cd...qGU$b1c93899-ee61-4852-a496-6fa7972bc8baqHau\\x85RqI.\'), (<pydal.objects.Field object>, False), (<pydal.objects.Field object>, datetime.datetime(2018, 12, 4, 14, 27, 17, 209897)), (<pydal.objects.Field object>, \'68a3122b-d559-4e8d-b02a-4a39ab878a4d\')])'
+p168
+sg91
+g152
+sasS'pyver'
+p169
+S'Python 2.7.12: /usr/bin/python (prefix: /usr)'
+p170
+sS'session'
+p171
+g61
+(S's\x8a\n\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">auth</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">expiration</td><td style="vertical-align:top;">:</td><td><div>3600</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>8b8fc72d-78a2-4105-8942-e949d46cc58d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_visit</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 12, 4, 14, 21, 58, 886168)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remember_me</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">email</td><td style="vertical-align:top;">:</td><td><div>mrtse@ucsc.edu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">first_name</td><td style="vertical-align:top;">:</td><td><div>Michelle</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>6L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_name</td><td style="vertical-align:top;">:</td><td><div>Tse</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_id</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">reset_password_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user_groups</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">6</td><td style="vertical-align:top;">:</td><td><div>user_6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">8</td><td style="vertical-align:top;">:</td><td><div>wiki_editor</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>Success!</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_orderby</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_query</td><td style="vertical-align:top;">:</td><td><div>db.page.id&gt;0</div></td></tr></table></div>'
+tRp172
+sS'etype'
+p173
+S"<class 'sqlite3.OperationalError'>"
+p174
+sS'date'
+p175
+S'Tue Dec  4 14:27:22 2018'
+p176
+sS'response'
+p177
+g61
+(S's4(\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7fa474d37ed8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_comcooks</td><td style="vertical-align:top;">:</td><td><div>6:68a3122b-d559-4e8d-b02a-4a39ab878a4d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/ComCooks/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Sample Menu 1</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>#</div></td></tr><tr><td><div><table><tr><td><div><table><tr><td><div>Entry1</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/ComCooks/default/entry1</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Entry2</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/ComCooks/default/entry2</div></td></tr></table></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Sample Menu 2</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/ComCooks/default/index</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/create/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_comcooks</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_record_id</td><td style="vertical-align:top;">:</td><td><div>6L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_table</td><td style="vertical-align:top;">:</td><td><div>&lt;Table web2py_session_ComCooks (id, locked, client_ip, created_datetime, modified_datetime, unique_key, session_data)&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_unique_key</td><td style="vertical-align:top;">:</td><td><div>68a3122b-d559-4e8d-b02a-4a39ab878a4d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>ac343012a989827a65588b271b257f41</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>6:68a3122b-d559-4e8d-b02a-4a39ab878a4d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_comcooks</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>ComCooks</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_pickled</td><td style="vertical-align:top;">:</td><td><div>\x80\x02cgluon.globals\nSession\nq\x01}q\x02(U\nlast_queryq\x03U\x0cdb.page.id&gt;0q\x04U\n_auth_nextq\x05NU\x05flashq\x06c__builtin__\nstr\nq\x07U\x08Success!q\x08\x85Rq\tU\x04authq\ncgluon.storage\nStorage\nq\x0b}q\x0c(U\x0bremember_meq\r\x89U\nexpirationq\x0eM\x10\x0eU\nlast_visitq\x0fcdatetime\ndatetime\nq\x10U\n\x07\xe2\x0c\x04\x0e\x15:\r\x85\x98\x85Rq\x11U\x08hmac_keyq\x12U$8b8fc72d-78a2-4105-8942-e949d46cc58dq\x13U\x0buser_groupsq\x14}q\x15(\x8a\x01\x08U\x0bwiki_editor\x8a\x01\x06U\x06user_6uU\x04userq\x16cpydal.objects\nRow\nq\x17}q\x18(U\nfirst_nameq\x19U\x08Michelleq\x1aU\tlast_nameq\x1bU\x03Tseq\x1cU\x0fregistration_idq\x1dU\x00U\x05emailq\x1eU\x0emrtse@ucsc.eduq\x1fU\x12reset_password_keyq U\x00U\x10registration_keyq!U\x00U\x02idq&quot;\x8a\x01\x06u\x85Rq#u\x85Rq$U\x15_formkey[page/create]q%]q&amp;(U$72ada1d7-f017-4ffb-834d-2bca1abbae49q&#x27;U$d02c6849-d232-4c2e-b948-c118eb1efb2cq(U$520bba8b-11f8-400e-9a39-844ed7d9ece3q)U$4d6b351e-b16d-4bfe-9e3a-92925f8ed889q*U$c878f13a-2ec0-4abf-9499-082a191b74d5q+U$213ee063-4a65-4b75-91b3-0ff36e721296q,U$14fba3e7-59fa-4976-b816-972539a45ee9q-U$81185636-3595-47a9-9382-b3dc02ec5c22q.U$82b5aacd-ed62-4e53-a7dc-85cf06e96e30q/U$ea8e1479-8905-4e2a-8965-e96e4715f4b2q0eU\x0clast_orderbyq1NU\x19_formkey[no_table/create]q2]q3(U$d951ad93-0537-49b9-92bf-1ed129e00117q4U$173965b6-42a8-42ba-bee5-e0c31197d534q5U$dce9e44f-ab64-405e-b854-14f32ecd2f78q6U$8f7b8011-7c6e-49c4-b6cc-28dc39286ccfq7U$7ab46565-e8c3-45c6-a954-2165618519d1q8U$0106d21e-8028-4982-bdd3-2fcbde2e0aeaq9U$2a78886a-050a-444f-aa78-6b6f17789a6dq:U$246624f3-b7e2-4523-8277-26a903d340e0q;U$97e26d8f-9bfa-425f-99c2-d10399db383eq&lt;U$efa7b4ff-4f2f-49ec-9eaa-48214750f494q=eU\x1a_formkey[wiki_page/create]q&gt;]q?(U$7493c62d-1a53-4c18-a412-9c44adff526cq@U$34154aa8-b297-4cf5-bac6-2eb82f0a11e2qAeU\x11_formkey[default]qB]qC(U$105cc7af-405c-4209-966a-a6bbf9e8833aqDU$3d8abd23-b8ae-4cb7-b46f-a3efc78b10eeqEeU\x0f_formkey[login]qF]qGU$b1c93899-ee61-4852-a496-6fa7972bc8baqHau\x85RqI.</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Comcooks</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/create.html</div></td></tr></table></div>'
+tRp178
+sS'locals'
+p179
+(dp180
+S'e'
+S"OperationalError('database is locked',)"
+p181
+sS'fields'
+p182
+S"[(<pydal.objects.Field object>, '127.0.0.1'), (<pydal.objects.Field object>, '\\x80\\x02cgluon.globals\\nSession\\nq\\x01}q\\x02(U\\nlast_queryq\\x03U\\x0cd...qGU$b1c93899-ee61-4852-a496-6fa7972bc8baqHau\\x85RqI.'), (<pydal.objects.Field object>, False), (<pydal.objects.Field object>, datetime.datetime(2018, 12, 4, 14, 27, 17, 209897)), (<pydal.objects.Field object>, '68a3122b-d559-4e8d-b02a-4a39ab878a4d')]"
+p183
+sS'self'
+p184
+S'<pydal.adapters.sqlite.SQLite object>'
+p185
+sS'sql'
+p186
+S'\'UPDATE "web2py_session_ComCooks" SET "client_ip"...8a4d\\\' WHERE ("web2py_session_ComCooks"."id" = 6);\''
+p187
+sS'table'
+p188
+S'<Table web2py_session_ComCooks (id, locked, clie...me, modified_datetime, unique_key, session_data)>'
+p189
+sS'query'
+p190
+S'<Query ("web2py_session_ComCooks"."id" = 6)>'
+p191
+sssS'traceback'
+p192
+S'Traceback (most recent call last):\n  File "/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/main.py", line 461, in wsgibase\n    session._try_store_in_db(request, response)\n  File "/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/globals.py", line 1236, in _try_store_in_db\n    if not table._db(table.id == record_id).update(**dd):\n  File "/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/packages/dal/pydal/objects.py", line 2314, in update\n    ret = db._adapter.update(table, self.query, row.op_values())\n  File "/home/michy/CS183/ComCooks/ComCooks/web2py/gluon/packages/dal/pydal/adapters/base.py", line 524, in update\n    raise e\nOperationalError: database is locked\n'
+p193
+s.
